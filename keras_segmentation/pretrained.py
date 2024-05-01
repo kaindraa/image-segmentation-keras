@@ -35,8 +35,8 @@ def resnet_pspnet_VOC12_v0_1():
 def pspnet_50_ADE_20K():
 
     model_config = {
-        "input_height": 473,
-        "input_width": 473,
+        "input_height": 1024,
+        "input_width": 2048,
         "n_classes": 150,
         "model_class": "pspnet_50",
     }
